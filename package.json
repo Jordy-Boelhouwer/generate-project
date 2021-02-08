@@ -1,0 +1,23 @@
+{
+  "name": "generate-project",
+  "version": "1.0.0",
+  "description": "CLI tool for generating my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordy-Boelhouwer/generate-project.git"
+  },
+  "keywords": [
+    "cli",
+    "generate-project"
+  ],
+  "author": "Jordy Boelhouwer (jordyboelhouwer@hotmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jordy-Boelhouwer/generate-project/issues"
+  },
+  "homepage": "https://github.com/Jordy-Boelhouwer/generate-project#readme"
+}
