@@ -1,8 +1,15 @@
 {
-  "name": "generate-project",
+  "name": "@verisopth/generate-project",
   "version": "1.0.0",
   "description": "CLI tool for generating my projects",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": {
+    "@verisopth/generate-project": "bin/generate-project",
+    "generate-project": "bin/generate-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/Jordy-Boelhouwer/generate-project/issues"
   },
-  "homepage": "https://github.com/Jordy-Boelhouwer/generate-project#readme"
+  "homepage": "https://github.com/Jordy-Boelhouwer/generate-project#readme",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.3.3"
+  }
 }
