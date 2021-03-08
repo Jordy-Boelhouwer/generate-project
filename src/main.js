@@ -33,13 +33,11 @@ export async function createProject(options) {
   };
 
   const currentFileUrl = import.meta.url;
-  console.log(__dirname);
   const templateDir = path.resolve(
     __dirname,
     '../templates',
     options.template.toLowerCase()
   );
-  console.log(`template dir is ${templateDir}`);
   options.templateDirectory = templateDir;
 
   try {
